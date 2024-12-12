@@ -1,12 +1,11 @@
-/** @type {import('tailwindcss').Config} */
-export default {
+
+module.exports = {
   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    './src/**/*.{html,js,jsx,ts,tsx}',  // For React/Next.js projects
+    './public/index.html',              // If you're using HTML files
   ],
   theme: {
     extend: {},
   },
   plugins: [],
 }
-
